@@ -66,6 +66,7 @@ def configuration_format(configuration_file_path):
 CONFIGURATION_FILE_PATH = "./financesoft/conf/script_configuration.txt"
 
 # SET UP DATABASE CONNECTION INFORMATION
+
 REPO_PATH,BRANCHES,CONNECTION_STRING = configuration_format(CONFIGURATION_FILE_PATH)
 
 
@@ -78,5 +79,3 @@ print(result)
 # CLOSE CONNECTION AFTER DATA WRITE TO DB
 CONNECTION.close()
 
-
-# Some test messages
