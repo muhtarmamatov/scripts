@@ -79,3 +79,4 @@ print(result)
 # CLOSE CONNECTION AFTER DATA WRITE TO DB
 CONNECTION.close()
 
+# Some new text added
